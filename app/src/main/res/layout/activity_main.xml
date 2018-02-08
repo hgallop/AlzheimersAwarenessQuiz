@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.alzheimersawarenessquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:gravity="center"
+            android:padding="@dimen/pad"
+            android:text="@string/welcome"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/headText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:gravity="center"
+            android:padding="@dimen/pad"
+            android:text="@string/instructions"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/bodyText" />
+
+        <EditText
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:hint="@string/editName"
+            android:padding="@dimen/pad"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:onClick="nameText"
+            android:padding="@dimen/pad"
+            android:text="@string/continueButton"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:padding="@dimen/pad"
+            android:text="@string/description"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:layout_width="@dimen/icon"
+            android:layout_height="@dimen/icon"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin"
+            android:contentDescription="@string/logoDescription"
+            android:src="@drawable/alzheimers_association_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:gravity="center"
+                android:text="@string/userName"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="@dimen/headText"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

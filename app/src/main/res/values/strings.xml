@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Alzheimer\'s Awareness Quiz</string>
+    <string name="welcome">Welcome to the Alzheimer\'s Awareness Quiz!</string>
+    <string name="instructions">You will be asked 10 questions about the signs and symptoms of alzheimer\'s disease.
+        \nAnswer each question to the best of your knowledge. \nYour responses will be scored at the end.
+    </string>
+    <string name="description">
+        DISCLAIMER
+        \nThis app was created to raise awareness and direct those that believe they or their loved one may be
+        suffering from the early stages of alzheimer\'s disease to more information from the Alzheimer\'s Association.
+        This quiz does not diagnose or treat any illness and is not endorsed by any medical professional or the Alzheimer\'s Association.
+    </string>
+    <string name="editName">First Name</string>
+    <string name="userName">Hello, </string>
+    <string name="continueButton">Get Started!</string>
+    <string name="logoDescription">Logo of Alzheimer\'s Association</string>
+</resources>
