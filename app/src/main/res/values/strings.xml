@@ -76,4 +76,14 @@
     <string name="q6example3">Struggles with vocabulary/has problems finding the right word.</string>
     <string name="q6example4">Calls things by the wrong name.</string>
     <string name="q6AgeRealted">Sometimes having trouble finding the right word can be a typical age-related change. Scroll down for next question.</string>
+
+    <!-- Question 7 -->
+    <string name="q7">Question 7</string>
+    <string name="q7text">Do you or your loved one misplace things and lose the ability to retrace steps?\nCheck all that apply:</string>
+    <string name="q7example1">Puts things in unusual places.</string>
+    <string name="q7example2">Loses things with increasing frequency.</string>
+    <string name="q7example3">Unable to go back over your/their steps to find lost items.</string>
+    <string name="q7example4">Accuses others of stealing.</string>
+    <string name="q7AgeRelated">Misplacing things from time to time and retracing steps to find them can be a typical age-related change. Scroll down for next question.</string>
+
 </resources>
