@@ -86,4 +86,13 @@
     <string name="q7example4">Accuses others of stealing.</string>
     <string name="q7AgeRelated">Misplacing things from time to time and retracing steps to find them can be a typical age-related change. Scroll down for next question.</string>
 
+    <!-- Question 8 -->
+    <string name="q8">Question 8</string>
+    <string name="q8text">Do you or your loved one have decreased or poor judgement?\nCheck all that apply:</string>
+    <string name="q8example1">Changes in judgment or decision-making.</string>
+    <string name="q8example2">Uses poor judgment when dealing with money.</string>
+    <string name="q8example3">Pays less attention to grooming.</string>
+    <string name="q8example4">Pays less attentio to keeping your/themselves clean</string>
+
+
 </resources>
