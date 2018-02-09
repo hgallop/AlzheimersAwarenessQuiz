@@ -30,7 +30,7 @@
     <string name="q1example2">Forgets important dates or events.</string>
     <string name="q1example3">Asks for the same information over and over.</string>
     <string name="q1example4">Increased need to rely on memory aids or family members for things once handled by self.</string>
-    <string name="q1AgeRelated">Sometimes forgetting names or appointments, but remembering them later can be a typical age-related change.</string>
+    <string name="q1AgeRelated">Sometimes forgetting names or appointments, but remembering them later can be a typical age-related change. Scroll down for next question.</string>
 
     <!-- Question 2 -->
     <string name="q2">Question 2</string>
@@ -48,7 +48,7 @@
     <string name="q3example2">Has trouble driving to a familiar location.</string>
     <string name="q3example3">Has trouble managing a budget at work.</string>
     <string name="q3example4">Has trouble remembering the rules of a favorite game.</string>
-    <string name="q3AgeRelated">Occasionally needing help to use the settings on a microwave or to record a television show can be a typical age-related change.</string>
+    <string name="q3AgeRelated">Occasionally needing help to use the settings on a microwave or to record a television show can be a typical age-related change. Scroll down for next question.</string>
 
     <!-- Question 4 -->
     <string name="q4">Question 4</string>
@@ -57,7 +57,7 @@
     <string name="q4example2">Loses track of the passage of time.</string>
     <string name="q4example3">Has trouble understanding something if it is not happening immediately.</string>
     <string name="q4example4">Sometimes forget where you/they are or how you/they got there.</string>
-    <string name="q4AgeRealted">Getting confused about the day of the week but figuring it out later can be a typical age-related change.</string>
+    <string name="q4AgeRealted">Getting confused about the day of the week but figuring it out later can be a typical age-related change. Scroll down for next question.</string>
 
     <!--Question 5 -->
     <string name="q5">Question 5</string>
@@ -66,5 +66,14 @@
     <string name="q5example2">Has difficulty reading.</string>
     <string name="q5example3">Has difficulty determining color or contrast.</string>
     <string name="q5example4">Has difficulty judging distance/problems with driving.</string>
-    <string name="q5AgeRelated">Vision changes related to cataracts can be a typical age-related change.</string>
+    <string name="q5AgeRelated">Vision changes related to cataracts can be a typical age-related change. Scroll down for next question.</string>
+
+    <!-- Question 6 -->
+    <string name="q6">Question 6</string>
+    <string name="q6text">Do you or your loved on have new problems with words in speaking or writing? Check all that apply:</string>
+    <string name="q6example1">Has trouble following or joining a conversation.</string>
+    <string name="q6example2">Stops in the middle of a conversation and has no idea how to continue or you/they repeat themselves</string>
+    <string name="q6example3">Struggles with vocabulary/has problems finding the right word.</string>
+    <string name="q6example4">Calls things by the wrong name.</string>
+    <string name="q6AgeRealted">Sometimes having trouble finding the right word can be a typical age-related change. Scroll down for next question.</string>
 </resources>
