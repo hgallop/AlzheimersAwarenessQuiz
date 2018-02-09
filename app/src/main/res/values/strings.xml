@@ -16,12 +16,21 @@
     <string name="continueButton">Submit Name</string>
     <string name="logoDescription">Logo of Alzheimer\'s Association</string>
     <string name="q1">Question 1</string>
-    <string name="q1text">Do you or your love one experience any of these examples of memory loss that disrupt daily life? Choose all that apply:</string>
+    <string name="q1text">Do you or your love one experience any of these examples of memory loss that disrupt daily life? Check all that apply:</string>
     <string name="q1example1">Forgets recently learned information.</string>
     <string name="q1example2">Forgets important dates or events.</string>
     <string name="q1example3">Asks for the same information over and over.</string>
     <string name="q1example4">Increased need to rely on memory aids or family members for things once handled by self.</string>
+    <string name="q1AgeRelated">Sometimes forgetting names or appointments, but remembering them later can be an age-related change.</string>
     <string name="noneResponse">None of these.</string>
     <string name="toastScroll">Scroll down to reveal first question.</string>
     <string name="submit">Submit Answer</string>
+    <string name="q2">Question 2</string>
+    <string name="q2text">Do you or your loved one experience challenges in planning or solving problems? Check all that apply.</string>
+    <string name="q2example1">Changes in your/their ability to develop and follow a plan.</string>
+    <string name="q2example2">Changes in your/their ability to work with numbers.</string>
+    <string name="q2example3">Have trouble following a familiar recipe or keeping track of monthly bills.</string>
+    <string name="q2example4">Difficulty concentrating and taking much longer to do things than you/they did before.</string>
+    <string name="q2AgeRelated">Making occasional errors when balancing a checkbook can be an age-related change.</string>
+    <string name="q3">Question 3</string>
 </resources>
