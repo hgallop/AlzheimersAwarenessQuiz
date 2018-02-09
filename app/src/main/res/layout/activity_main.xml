@@ -12,29 +12,15 @@
         android:orientation="vertical">
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/margin"
-            android:background="@color/colorPrimary" />
+            style="@style/ViewStyle" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin"
-            android:gravity="center"
-            android:padding="@dimen/pad"
-            android:text="@string/welcome"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="@dimen/headText" />
+            style="@style/TextStyle.DarkHead"
+            android:text="@string/welcome" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin"
-            android:gravity="center"
-            android:padding="@dimen/pad"
-            android:text="@string/instructions"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="@dimen/bodyText" />
+            style="@style/TextStyle.DarkBody"
+            android:text="@string/instructions" />
 
         <EditText
             android:id="@+id/name_text"
@@ -47,32 +33,17 @@
 
         <Button
             android:id="@+id/question_one"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/margin"
-            android:background="@color/colorPrimary"
+            style="@style/ButtonStyle"
             android:onClick="nameText"
-            android:padding="@dimen/pad"
-            android:text="@string/continueButton"
-            android:textColor="@color/colorPrimaryDark" />
+            android:text="@string/continueButton" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin"
-            android:padding="@dimen/pad"
+            style="@style/TextStyle"
             android:text="@string/description"
             android:textColor="@color/colorPrimaryDark" />
 
         <ImageView
-            android:layout_width="@dimen/icon"
-            android:layout_height="@dimen/icon"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/margin"
-            android:layout_marginBottom="@dimen/margin"
-            android:contentDescription="@string/logoDescription"
-            android:src="@drawable/alzheimers_association_logo" />
+            style="@style/ImageStyle.Light" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -81,110 +52,63 @@
             android:background="@color/colorPrimaryDark">
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/margin"
-                android:background="@color/colorPrimary" />
+                style="@style/ViewStyle" />
 
             <TextView
                 android:id="@+id/user_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin"
-                android:padding="@dimen/pad"
-                android:gravity="center"
-                android:text="@string/userName"
-                android:textColor="@color/colorPrimaryLight"
-                android:textSize="@dimen/headText"/>
+                style="@style/TextStyle.LightHead"
+                android:text="@string/userName" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin"
-                android:padding="@dimen/pad"
-                android:gravity="center"
-                android:textColor="@color/colorPrimaryLight"
-                android:textSize="@dimen/headText"
+                style="@style/TextStyle.LightHead"
                 android:text="@string/q1"/>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin"
-                android:padding="@dimen/pad"
-                android:gravity="center"
-                android:textColor="@color/colorPrimaryLight"
-                android:textSize="@dimen/bodyText"
+                style="@style/TextStyle.LightBody"
                 android:text="@string/q1text"/>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/CheckboxStyle.Light"
                 android:paddingLeft="@dimen/margin"
-                android:layout_margin="@dimen/pad"
+                android:paddingStart="@dimen/margin"
                 android:text="@string/q1example1"
-                android:textSize="@dimen/bodyText"
-                android:textColor="@color/colorPrimaryLight"
                 android:buttonTint="@color/colorPrimary"/>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/CheckboxStyle.Light"
                 android:paddingLeft="@dimen/margin"
-                android:layout_margin="@dimen/pad"
+                android:paddingStart="@dimen/margin"
                 android:text="@string/q1example2"
-                android:textSize="@dimen/bodyText"
-                android:textColor="@color/colorPrimaryLight"
                 android:buttonTint="@color/colorPrimary"/>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/CheckboxStyle.Light"
                 android:paddingLeft="@dimen/margin"
-                android:layout_margin="@dimen/pad"
+                android:paddingStart="@dimen/margin"
                 android:text="@string/q1example3"
-                android:textSize="@dimen/bodyText"
-                android:textColor="@color/colorPrimaryLight"
                 android:buttonTint="@color/colorPrimary"/>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/CheckboxStyle.Light"
                 android:paddingLeft="@dimen/margin"
-                android:layout_margin="@dimen/pad"
+                android:paddingStart="@dimen/margin"
                 android:text="@string/q1example4"
-                android:textSize="@dimen/bodyText"
-                android:textColor="@color/colorPrimaryLight"
                 android:buttonTint="@color/colorPrimary"/>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/CheckboxStyle.Light"
                 android:paddingLeft="@dimen/margin"
-                android:layout_margin="@dimen/pad"
+                android:paddingStart="@dimen/margin"
                 android:text="@string/noneResponse"
-                android:textSize="@dimen/bodyText"
-                android:textColor="@color/colorPrimaryLight"
                 android:buttonTint="@color/colorPrimary"/>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/margin"
-                android:background="@color/colorPrimary"
+                style="@style/ButtonStyle"
                 android:onClick="nameText"
-                android:padding="@dimen/pad"
-                android:text="@string/submit"
-                android:textColor="@color/colorPrimaryDark" />
+                android:text="@string/submit" />
 
             <ImageView
-                android:layout_width="@dimen/icon"
-                android:layout_height="@dimen/icon"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/margin"
-                android:layout_marginBottom="@dimen/margin"
-                android:contentDescription="@string/logoDescription"
-                android:src="@drawable/reverse_alzheimers_association" />
+                style="@style/ImageStyle.Dark" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
