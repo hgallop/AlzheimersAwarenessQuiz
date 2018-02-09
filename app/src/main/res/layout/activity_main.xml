@@ -13,7 +13,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="@dimen/margin"
             android:background="@color/colorPrimary" />
 
         <TextView
@@ -46,6 +46,7 @@
             android:textColor="@color/colorPrimary" />
 
         <Button
+            android:id="@+id/question_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -79,6 +80,11 @@
             android:orientation="vertical"
             android:background="@color/colorPrimaryDark">
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin"
+                android:background="@color/colorPrimary" />
+
             <TextView
                 android:id="@+id/user_name"
                 android:layout_width="match_parent"
@@ -99,6 +105,86 @@
                 android:textColor="@color/colorPrimaryLight"
                 android:textSize="@dimen/headText"
                 android:text="@string/q1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:padding="@dimen/pad"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="@dimen/bodyText"
+                android:text="@string/q1text"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin"
+                android:layout_margin="@dimen/pad"
+                android:text="@string/q1example1"
+                android:textSize="@dimen/bodyText"
+                android:textColor="@color/colorPrimaryLight"
+                android:buttonTint="@color/colorPrimary"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin"
+                android:layout_margin="@dimen/pad"
+                android:text="@string/q1example2"
+                android:textSize="@dimen/bodyText"
+                android:textColor="@color/colorPrimaryLight"
+                android:buttonTint="@color/colorPrimary"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin"
+                android:layout_margin="@dimen/pad"
+                android:text="@string/q1example3"
+                android:textSize="@dimen/bodyText"
+                android:textColor="@color/colorPrimaryLight"
+                android:buttonTint="@color/colorPrimary"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin"
+                android:layout_margin="@dimen/pad"
+                android:text="@string/q1example4"
+                android:textSize="@dimen/bodyText"
+                android:textColor="@color/colorPrimaryLight"
+                android:buttonTint="@color/colorPrimary"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin"
+                android:layout_margin="@dimen/pad"
+                android:text="@string/noneResponse"
+                android:textSize="@dimen/bodyText"
+                android:textColor="@color/colorPrimaryLight"
+                android:buttonTint="@color/colorPrimary"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin"
+                android:background="@color/colorPrimary"
+                android:onClick="nameText"
+                android:padding="@dimen/pad"
+                android:text="@string/submit"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <ImageView
+                android:layout_width="@dimen/icon"
+                android:layout_height="@dimen/icon"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_marginBottom="@dimen/margin"
+                android:contentDescription="@string/logoDescription"
+                android:src="@drawable/reverse_alzheimers_association" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

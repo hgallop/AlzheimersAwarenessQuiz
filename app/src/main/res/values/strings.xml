@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Alzheimer\'s Awareness Quiz</string>
-    <string name="welcome">Welcome to the Alzheimer\'s Awareness Quiz!</string>
+    <string name="welcome">Welcome to the \nAlzheimer\'s Awareness Quiz!</string>
     <string name="instructions">You will be asked 10 questions about the signs and symptoms of alzheimer\'s disease.
         \nAnswer each question to the best of your knowledge. \nYour responses will be scored at the end.
     </string>
@@ -9,10 +9,19 @@
         \nThis app was created to raise awareness and direct those that believe they or their loved one may be
         suffering from the early stages of alzheimer\'s disease to more information from the Alzheimer\'s Association.
         This quiz does not diagnose or treat any illness and is not endorsed by any medical professional or the Alzheimer\'s Association.
+        Materials from alz.org are used with permission by the Alzheimer's Association.
     </string>
-    <string name="editName">First Name</string>
+    <string name="editName">First Name (optional)</string>
     <string name="userName">Hello, </string>
-    <string name="continueButton">Get Started!</string>
+    <string name="continueButton">Submit Name</string>
     <string name="logoDescription">Logo of Alzheimer\'s Association</string>
     <string name="q1">Question 1</string>
+    <string name="q1text">Do you or your love one experience any of these examples of memory loss that disrupt daily life? Choose all that apply:</string>
+    <string name="q1example1">Forgets recently learned information.</string>
+    <string name="q1example2">Forgets important dates or events.</string>
+    <string name="q1example3">Asks for the same information over and over.</string>
+    <string name="q1example4">Increased need to rely on memory aids or family members for things once handled by self.</string>
+    <string name="noneResponse">None of these.</string>
+    <string name="toastScroll">Scroll down to reveal first question.</string>
+    <string name="submit">Submit Answer</string>
 </resources>
