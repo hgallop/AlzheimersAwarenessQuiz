@@ -224,5 +224,63 @@
 
             <ImageView style="@style/ImageStyle.Dark" />
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:orientation="vertical">
+
+            <View style="@style/ViewStyle" />
+
+            <TextView
+                style="@style/TextStyle.DarkHead"
+                android:text="@string/q4" />
+
+            <TextView
+                style="@style/TextStyle.DarkBody"
+                android:text="@string/q4text" />
+
+            <CheckBox
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/q4example1" />
+
+            <CheckBox
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/q4example2" />
+
+            <CheckBox
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/q4example3" />
+
+            <CheckBox
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/q4example4" />
+
+            <CheckBox
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/noneResponse" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="nameText"
+                android:text="@string/submit" />
+
+            <ImageView style="@style/ImageStyle.Light" />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
