@@ -8,10 +8,10 @@
     </string>
     <string name="description">
         DISCLAIMER
-        \nThis app was created to raise awareness and direct those that believe they or their loved one may be
+        \nThis app was created to raise awareness and direct those that suspect they or their loved one may be
         suffering from the early stages of alzheimer\'s disease to more information from the Alzheimer\'s Association.
         This quiz does not diagnose or treat any illness and is not endorsed by any medical professional or the Alzheimer\'s Association.
-        Materials from alz.org are used with permission by the Alzheimer's Association.
+        Materials from alz.org are used with permission by the Alzheimer\'s Association.
     </string>
     <string name="toastScroll">Scroll down to reveal first question.</string>
     <string name="editName">First Name (optional)</string>
@@ -70,7 +70,7 @@
 
     <!-- Question 6 -->
     <string name="q6">Question 6</string>
-    <string name="q6text">Do you or your loved on have new problems with words in speaking or writing? Check all that apply:</string>
+    <string name="q6text">Do you or your loved one have new problems with words in speaking or writing? Check all that apply:</string>
     <string name="q6example1">Has trouble following or joining a conversation.</string>
     <string name="q6example2">Stops in the middle of a conversation and has no idea how to continue or you/they repeat themselves</string>
     <string name="q6example3">Struggles with vocabulary/has problems finding the right word.</string>
@@ -92,17 +92,24 @@
     <string name="q8example1">Changes in judgment or decision-making.</string>
     <string name="q8example2">Uses poor judgment when dealing with money.</string>
     <string name="q8example3">Pays less attention to grooming.</string>
-    <string name="q8example4">Pays less attentio to keeping yourself/themselves clean</string>
-    <string name="q8AgeRelated">Making a bad decision once in a while can be a typical age-related change.</string>
+    <string name="q8example4">Pays less attention to keeping yourself/themself clean</string>
+    <string name="q8AgeRelated">Making a bad decision once in a while can be a typical age-related change. Scroll down for next question.</string>
 
     <!-- Question 9 -->
     <string name="q9">Question 9</string>
     <string name="q9text">Are you or your loved one withdrawing from work or social activities?\nCheck all that apply:</string>
-    <string name="q9example1">Startimg to remove yourself/themself from hobbies, social activities, work projects or sports.</string>
+    <string name="q9example1">Starting to remove yourself/themself from hobbies, social activities, work projects or sports.</string>
     <string name="q9example2">Has trouble keeping up with a favorite sports team.</string>
     <string name="q9example3">Has trouble remembering how to complete a favorite hobby.</string>
     <string name="q9example4">Avoids being social.</string>
-    <string name="q9AgeRelated">Sometimes feeling weary of work, family and social obligations can be a typical age-related change.</string>
+    <string name="q9AgeRelated">Sometimes feeling weary of work, family and social obligations can be a typical age-related change. Scroll down for next question.</string>
 
-
+    <!-- Question 10 -->
+    <string name="q10">Question 10</string>
+    <string name="q10text">Have you or your loved one experienced any changes in mood and personality?\nCheck all that apply:</string>
+    <string name="q10example1">Becomes confused or suspicious.</string>
+    <string name="q10example2">Becomes depressed, fearful or anxious.</string>
+    <string name="q10example3">Is easily upset at home, at work, and with friends.</string>
+    <string name="q10example4">Is easily upset in places where they are out of their comfort zone.</string>
+    <string name="q10AgeRelated">Developing very specific ways of doing things and becoming irritable when a routine is disrupted can be a typical age-related change. Scroll down to score your quiz..</string>
 </resources>

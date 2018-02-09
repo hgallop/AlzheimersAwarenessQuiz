@@ -8,42 +8,50 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
         android:descendantFocusability="beforeDescendants"
         android:focusableInTouchMode="true"
-        android:background="@color/colorPrimaryLight"
         android:orientation="vertical">
 
-        <View style="@style/ViewStyle" />
-
-        <TextView
-            style="@style/TextStyle.DarkHead"
-            android:text="@string/welcome" />
-
-        <TextView
-            style="@style/TextStyle.DarkBody"
-            android:text="@string/instructions" />
-
-        <EditText
-            android:id="@+id/name_text"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin"
-            android:hint="@string/editName"
-            android:padding="@dimen/pad"
-            android:textColor="@color/colorPrimary" />
+            android:background="@color/colorPrimaryLight"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/question_one"
-            style="@style/ButtonStyle"
-            android:onClick="nameText"
-            android:text="@string/continueButton" />
+            <View style="@style/ViewStyle" />
 
-        <TextView
-            style="@style/TextStyle"
-            android:text="@string/description"
-            android:textColor="@color/colorPrimaryDark" />
+            <TextView
+                style="@style/TextStyle.DarkHead"
+                android:text="@string/welcome" />
 
-        <ImageView style="@style/ImageStyle.Light" />
+            <TextView
+                style="@style/TextStyle.DarkBody"
+                android:text="@string/instructions" />
+
+            <EditText
+                android:id="@+id/name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:hint="@string/editName"
+                android:padding="@dimen/pad"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/question_one"
+                style="@style/ButtonStyle"
+                android:onClick="nameText"
+                android:text="@string/continueButton" />
+
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginBottom="@dimen/margin"
+                android:text="@string/description"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <ImageView style="@style/ImageStyle.Light" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -285,6 +293,7 @@
 
             <ImageView style="@style/ImageStyle.Light" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -580,6 +589,63 @@
             <ImageView style="@style/ImageStyle.Dark" />
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:orientation="vertical">
 
+            <View style="@style/ViewStyle" />
+
+            <TextView
+                style="@style/TextStyle.DarkHead"
+                android:text="@string/q10" />
+
+            <TextView
+                style="@style/TextStyle.DarkBody"
+                android:text="@string/q10text" />
+
+            <CheckBox
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/q10example1" />
+
+            <CheckBox
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/q10example2" />
+
+            <CheckBox
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/q10example3" />
+
+            <CheckBox
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/q10example4" />
+
+            <CheckBox
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/noneResponse" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="nameText"
+                android:text="@string/submit" />
+
+            <ImageView style="@style/ImageStyle.Light" />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
