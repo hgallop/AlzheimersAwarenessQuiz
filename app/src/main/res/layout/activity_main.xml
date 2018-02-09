@@ -165,6 +165,7 @@
 
             <ImageView style="@style/ImageStyle.Light" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -175,39 +176,39 @@
 
             <TextView
                 style="@style/TextStyle.LightHead"
-                android:text="@string/q2" />
+                android:text="@string/q3" />
 
             <TextView
                 style="@style/TextStyle.LightBody"
-                android:text="@string/q2text" />
+                android:text="@string/q3text" />
 
             <CheckBox
                 style="@style/CheckboxStyle.Light"
                 android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
                 android:paddingStart="@dimen/margin"
-                android:text="@string/q2example1" />
+                android:text="@string/q3example1" />
 
             <CheckBox
                 style="@style/CheckboxStyle.Light"
                 android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
                 android:paddingStart="@dimen/margin"
-                android:text="@string/q2example2" />
+                android:text="@string/q3example2" />
 
             <CheckBox
                 style="@style/CheckboxStyle.Light"
                 android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
                 android:paddingStart="@dimen/margin"
-                android:text="@string/q2example3" />
+                android:text="@string/q3example3" />
 
             <CheckBox
                 style="@style/CheckboxStyle.Light"
                 android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
                 android:paddingStart="@dimen/margin"
-                android:text="@string/q2example4" />
+                android:text="@string/q3example4" />
 
             <CheckBox
                 style="@style/CheckboxStyle.Light"
