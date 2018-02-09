@@ -92,7 +92,17 @@
     <string name="q8example1">Changes in judgment or decision-making.</string>
     <string name="q8example2">Uses poor judgment when dealing with money.</string>
     <string name="q8example3">Pays less attention to grooming.</string>
-    <string name="q8example4">Pays less attentio to keeping your/themselves clean</string>
+    <string name="q8example4">Pays less attentio to keeping yourself/themselves clean</string>
+    <string name="q8AgeRelated">Making a bad decision once in a while can be a typical age-related change.</string>
+
+    <!-- Question 9 -->
+    <string name="q9">Question 9</string>
+    <string name="q9text">Are you or your loved one withdrawing from work or social activities?\nCheck all that apply:</string>
+    <string name="q9example1">Startimg to remove yourself/themself from hobbies, social activities, work projects or sports.</string>
+    <string name="q9example2">Has trouble keeping up with a favorite sports team.</string>
+    <string name="q9example3">Has trouble remembering how to complete a favorite hobby.</string>
+    <string name="q9example4">Avoids being social.</string>
+    <string name="q9AgeRelated">Sometimes feeling weary of work, family and social obligations can be a typical age-related change.</string>
 
 
 </resources>
