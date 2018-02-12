@@ -63,10 +63,12 @@
     </style>
 
     <style name="ImageStyle.Dark">
+        <item name="contentDescription">@string/logoDescription</item>
         <item name="android:src">@drawable/reverse_alzheimers_association</item>
     </style>
 
     <style name="ImageStyle.Light">
+        <item name="contentDescription">@string/logoDescription</item>
         <item name="android:src">@drawable/alzheimers_association_logo</item>
     </style>
 
