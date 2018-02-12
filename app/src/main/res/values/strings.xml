@@ -14,7 +14,7 @@
         Materials from alz.org are used with permission by the Alzheimer\'s Association.
     </string>
     <string name="toastScroll">Scroll down to reveal first question.</string>
-    <string name="editName">First Name (optional)</string>
+    <string name="editName">Please Enter Your Name</string>
     <string name="userName">Hello, </string>
     <string name="continueButton">Submit Name</string>
 
@@ -30,7 +30,7 @@
     <string name="q1example2">Forgets important dates or events.</string>
     <string name="q1example3">Asks for the same information over and over.</string>
     <string name="q1example4">Increased need to rely on memory aids or family members for things once handled by self.</string>
-    <string name="q1AgeRelated">Sometimes forgetting names or appointments, but remembering them later can be a typical age-related change. Scroll down for next question.</string>
+    <string name="q1AgeRelated">Sometimes forgetting names or appointments, but remembering them later can be a typical age-related change.</string>
 
     <!-- Question 2 -->
     <string name="q2">Question 2</string>
@@ -48,7 +48,7 @@
     <string name="q3example2">Has trouble driving to a familiar location.</string>
     <string name="q3example3">Has trouble managing a budget at work.</string>
     <string name="q3example4">Has trouble remembering the rules of a favorite game.</string>
-    <string name="q3AgeRelated">Occasionally needing help to use the settings on a microwave or to record a television show can be a typical age-related change. Scroll down for next question.</string>
+    <string name="q3AgeRelated">Occasionally needing help to use the settings on a microwave or to record a television show can be a typical age-related change.</string>
 
     <!-- Question 4 -->
     <string name="q4">Question 4</string>
@@ -57,7 +57,7 @@
     <string name="q4example2">Loses track of the passage of time.</string>
     <string name="q4example3">Has trouble understanding something if it is not happening immediately.</string>
     <string name="q4example4">Sometimes forget where you/they are or how you/they got there.</string>
-    <string name="q4AgeRealted">Getting confused about the day of the week but figuring it out later can be a typical age-related change. Scroll down for next question.</string>
+    <string name="q4AgeRelated">Getting confused about the day of the week but figuring it out later can be a typical age-related change.</string>
 
     <!--Question 5 -->
     <string name="q5">Question 5</string>
@@ -66,7 +66,7 @@
     <string name="q5example2">Has difficulty reading.</string>
     <string name="q5example3">Has difficulty determining color or contrast.</string>
     <string name="q5example4">Has difficulty judging distance/problems with driving.</string>
-    <string name="q5AgeRelated">Vision changes related to cataracts can be a typical age-related change. Scroll down for next question.</string>
+    <string name="q5AgeRelated">Vision changes related to cataracts can be a typical age-related change.</string>
 
     <!-- Question 6 -->
     <string name="q6">Question 6</string>
@@ -75,7 +75,7 @@
     <string name="q6example2">Stops in the middle of a conversation and has no idea how to continue or you/they repeat themselves</string>
     <string name="q6example3">Struggles with vocabulary/has problems finding the right word.</string>
     <string name="q6example4">Calls things by the wrong name.</string>
-    <string name="q6AgeRealted">Sometimes having trouble finding the right word can be a typical age-related change. Scroll down for next question.</string>
+    <string name="q6AgeRelated">Sometimes having trouble finding the right word can be a typical age-related change.</string>
 
     <!-- Question 7 -->
     <string name="q7">Question 7</string>
@@ -84,7 +84,7 @@
     <string name="q7example2">Loses things with increasing frequency.</string>
     <string name="q7example3">Unable to go back over your/their steps to find lost items.</string>
     <string name="q7example4">Accuses others of stealing.</string>
-    <string name="q7AgeRelated">Misplacing things from time to time and retracing steps to find them can be a typical age-related change. Scroll down for next question.</string>
+    <string name="q7AgeRelated">Misplacing things from time to time and retracing steps to find them can be a typical age-related change.</string>
 
     <!-- Question 8 -->
     <string name="q8">Question 8</string>
@@ -93,7 +93,7 @@
     <string name="q8example2">Uses poor judgment when dealing with money.</string>
     <string name="q8example3">Pays less attention to grooming.</string>
     <string name="q8example4">Pays less attention to keeping yourself/themself clean</string>
-    <string name="q8AgeRelated">Making a bad decision once in a while can be a typical age-related change. Scroll down for next question.</string>
+    <string name="q8AgeRelated">Making a bad decision once in a while can be a typical age-related change.</string>
 
     <!-- Question 9 -->
     <string name="q9">Question 9</string>
@@ -102,7 +102,7 @@
     <string name="q9example2">Has trouble keeping up with a favorite sports team.</string>
     <string name="q9example3">Has trouble remembering how to complete a favorite hobby.</string>
     <string name="q9example4">Avoids being social.</string>
-    <string name="q9AgeRelated">Sometimes feeling weary of work, family and social obligations can be a typical age-related change. Scroll down for next question.</string>
+    <string name="q9AgeRelated">Sometimes feeling weary of work, family and social obligations can be a typical age-related change.</string>
 
     <!-- Question 10 -->
     <string name="q10">Question 10</string>
@@ -111,5 +111,19 @@
     <string name="q10example2">Becomes depressed, fearful or anxious.</string>
     <string name="q10example3">Is easily upset at home, at work, and with friends.</string>
     <string name="q10example4">Is easily upset in places where they are out of their comfort zone.</string>
-    <string name="q10AgeRelated">Developing very specific ways of doing things and becoming irritable when a routine is disrupted can be a typical age-related change. Scroll down to score your quiz..</string>
+    <string name="q10AgeRelated">Developing very specific ways of doing things and becoming irritable when a routine is disrupted can be a typical age-related change.\n\nScroll down to see your results.</string>
+
+    <!-- Quiz Result Screen -->
+    <string name="thankYou">Thank you for taking the\nAlzheimer\'s Awareness Quiz</string>
+    <string name="scoreMessage">Your score is:</string>
+    <string name="scoreMessage2">out of 40</string>
+    <string name="scoreExplanation">A high score may mean that you or your loved one is experiencing the early warning signs of Alzheimer\'s disease.</string>
+    <string name="emailQuestion">Would you like to email your results?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="summary_email_subject">Alzheimer\'s Awareness Quiz Results for:</string>
+    <string name="emailScore">just completed the Alzheimer\'s Awareness Quiz.\n\nThe score was</string>
+    <string name="visitWebsite">Go to alz.org</string>
+    <string name="alzWebsite">\n\nPlease visit: https://www.alz.org/10-signs-symptoms-alzheimers-dementia.asp for more information about Alzheimer\'s disease</string>
+    <string name="disclaimerForLink">\n\nThe Alzheimer\'s Association is not responsible for information or advice provided by others, including information on websites that link to Association sites and on third party sites to which the Association links.</string>
 </resources>

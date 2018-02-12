@@ -39,7 +39,6 @@
                 android:textColor="@color/colorPrimary" />
 
             <Button
-                android:id="@+id/question_one"
                 style="@style/ButtonStyle"
                 android:onClick="nameText"
                 android:text="@string/continueButton" />
@@ -67,14 +66,17 @@
                 android:text="@string/userName" />
 
             <TextView
+                android:id="@+id/question_number"
                 style="@style/TextStyle.LightHead"
                 android:text="@string/q1" />
 
             <TextView
+                android:id="@+id/question_text"
                 style="@style/TextStyle.LightBody"
                 android:text="@string/q1text" />
 
             <CheckBox
+                android:id="@+id/answer_example1"
                 style="@style/CheckboxStyle.Light"
                 android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
@@ -82,6 +84,7 @@
                 android:text="@string/q1example1" />
 
             <CheckBox
+                android:id="@+id/answer_example2"
                 style="@style/CheckboxStyle.Light"
                 android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
@@ -89,6 +92,7 @@
                 android:text="@string/q1example2" />
 
             <CheckBox
+                android:id="@+id/answer_example3"
                 style="@style/CheckboxStyle.Light"
                 android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
@@ -96,6 +100,7 @@
                 android:text="@string/q1example3" />
 
             <CheckBox
+                android:id="@+id/answer_example4"
                 style="@style/CheckboxStyle.Light"
                 android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
@@ -103,6 +108,7 @@
                 android:text="@string/q1example4" />
 
             <CheckBox
+                android:id="@+id/answer_none"
                 style="@style/CheckboxStyle.Light"
                 android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
@@ -111,7 +117,7 @@
 
             <Button
                 style="@style/ButtonStyle"
-                android:onClick="nameText"
+                android:onClick="submitAnswer"
                 android:text="@string/submit" />
 
             <ImageView style="@style/ImageStyle.Dark" />
@@ -127,525 +133,70 @@
 
             <TextView
                 style="@style/TextStyle.DarkHead"
-                android:text="@string/q2" />
+                android:text="@string/thankYou" />
+
+            <TextView
+                android:id="@+id/score_view"
+                style="@style/TextStyle.DarkHead"
+                android:text="@string/scoreMessage" />
 
             <TextView
                 style="@style/TextStyle.DarkBody"
-                android:text="@string/q2text" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q2example1" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q2example2" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q2example3" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q2example4" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/noneResponse" />
-
-            <Button
-                style="@style/ButtonStyle"
-                android:onClick="nameText"
-                android:text="@string/submit" />
-
-            <ImageView style="@style/ImageStyle.Light" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
-            android:orientation="vertical">
-
-            <View style="@style/ViewStyle" />
-
-            <TextView
-                style="@style/TextStyle.LightHead"
-                android:text="@string/q3" />
-
-            <TextView
-                style="@style/TextStyle.LightBody"
-                android:text="@string/q3text" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q3example1" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q3example2" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q3example3" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q3example4" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/noneResponse" />
-
-            <Button
-                style="@style/ButtonStyle"
-                android:onClick="nameText"
-                android:text="@string/submit" />
-
-            <ImageView style="@style/ImageStyle.Dark" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryLight"
-            android:orientation="vertical">
-
-            <View style="@style/ViewStyle" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scoreExplanation"/>
 
             <TextView
                 style="@style/TextStyle.DarkHead"
-                android:text="@string/q4" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/emailQuestion" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/yes"
+                    style="@style/CheckboxStyle.Dark"
+                    android:buttonTint="@color/colorPrimary"
+                    android:paddingLeft="@dimen/margin"
+                    android:paddingStart="@dimen/margin"
+                    android:text="@string/yes" />
+
+                <RadioButton
+                    android:id="@+id/no"
+                    style="@style/CheckboxStyle.Dark"
+                    android:buttonTint="@color/colorPrimary"
+                    android:paddingLeft="@dimen/margin"
+                    android:paddingStart="@dimen/margin"
+                    android:text="@string/no" />
+            </RadioGroup>
+
+            <Button
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="submitRadio"
+                android:text="@string/submit" />
+
+            <Button
+                android:id="@+id/web_link"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="visitAlz"
+                android:text="@string/visitWebsite" />
 
             <TextView
                 style="@style/TextStyle.DarkBody"
-                android:text="@string/q4text" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q4example1" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q4example2" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q4example3" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q4example4" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/noneResponse" />
-
-            <Button
-                style="@style/ButtonStyle"
-                android:onClick="nameText"
-                android:text="@string/submit" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/disclaimerForLink"/>
 
             <ImageView style="@style/ImageStyle.Light" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
-            android:orientation="vertical">
-
             <View style="@style/ViewStyle" />
-
-            <TextView
-                style="@style/TextStyle.LightHead"
-                android:text="@string/q5" />
-
-            <TextView
-                style="@style/TextStyle.LightBody"
-                android:text="@string/q5text" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q5example1" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q5example2" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q5example3" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q5example4" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/noneResponse" />
-
-            <Button
-                style="@style/ButtonStyle"
-                android:onClick="nameText"
-                android:text="@string/submit" />
-
-            <ImageView style="@style/ImageStyle.Dark" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryLight"
-            android:orientation="vertical">
-
-            <View style="@style/ViewStyle" />
-
-            <TextView
-                style="@style/TextStyle.DarkHead"
-                android:text="@string/q6" />
-
-            <TextView
-                style="@style/TextStyle.DarkBody"
-                android:text="@string/q6text" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q6example1" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q6example2" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q6example3" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q6example4" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/noneResponse" />
-
-            <Button
-                style="@style/ButtonStyle"
-                android:onClick="nameText"
-                android:text="@string/submit" />
-
-            <ImageView style="@style/ImageStyle.Light" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
-            android:orientation="vertical">
-
-            <View style="@style/ViewStyle" />
-
-            <TextView
-                style="@style/TextStyle.LightHead"
-                android:text="@string/q7" />
-
-            <TextView
-                style="@style/TextStyle.LightBody"
-                android:text="@string/q7text" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q7example1" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q7example2" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q7example3" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q7example4" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/noneResponse" />
-
-            <Button
-                style="@style/ButtonStyle"
-                android:onClick="nameText"
-                android:text="@string/submit" />
-
-            <ImageView style="@style/ImageStyle.Dark" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryLight"
-            android:orientation="vertical">
-
-            <View style="@style/ViewStyle" />
-
-            <TextView
-                style="@style/TextStyle.DarkHead"
-                android:text="@string/q8" />
-
-            <TextView
-                style="@style/TextStyle.DarkBody"
-                android:text="@string/q8text" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q8example1" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q8example2" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q8example3" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q8example4" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/noneResponse" />
-
-            <Button
-                style="@style/ButtonStyle"
-                android:onClick="nameText"
-                android:text="@string/submit" />
-
-            <ImageView style="@style/ImageStyle.Light" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
-            android:orientation="vertical">
-
-            <View style="@style/ViewStyle" />
-
-            <TextView
-                style="@style/TextStyle.LightHead"
-                android:text="@string/q9" />
-
-            <TextView
-                style="@style/TextStyle.LightBody"
-                android:text="@string/q9text" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q9example1" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q9example2" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q9example3" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q9example4" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Light"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/noneResponse" />
-
-            <Button
-                style="@style/ButtonStyle"
-                android:onClick="nameText"
-                android:text="@string/submit" />
-
-            <ImageView style="@style/ImageStyle.Dark" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryLight"
-            android:orientation="vertical">
-
-            <View style="@style/ViewStyle" />
-
-            <TextView
-                style="@style/TextStyle.DarkHead"
-                android:text="@string/q10" />
-
-            <TextView
-                style="@style/TextStyle.DarkBody"
-                android:text="@string/q10text" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q10example1" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q10example2" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q10example3" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/q10example4" />
-
-            <CheckBox
-                style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
-                android:paddingLeft="@dimen/margin"
-                android:paddingStart="@dimen/margin"
-                android:text="@string/noneResponse" />
-
-            <Button
-                style="@style/ButtonStyle"
-                android:onClick="nameText"
-                android:text="@string/submit" />
-
-            <ImageView style="@style/ImageStyle.Light" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
