@@ -5,7 +5,6 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -172,6 +171,7 @@ public class MainActivity extends AppCompatActivity {
         checkboxReset();
     }
 
+    //method to handle radio button choice and launch email if user answers yes
     public void submitRadio(View view){
         boolean yes = yesButton.isChecked();
         if (yes){
@@ -194,6 +194,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //method to handle opening website on click
     public void visitAlz(View view) {
         Intent webOpen = new Intent(android.content.Intent.ACTION_VIEW);
         webOpen.setData(Uri.parse("http://www.alz.org/10-signs-symptoms-alzheimers-dementia.asp"));
