@@ -22,6 +22,7 @@
     <string name="logoDescription">Logo of Alzheimer\'s Association</string>
     <string name="noneResponse">None of these.</string>
     <string name="submit">Submit Answer</string>
+    <string name="mustAnswer">You must choose at least one option.</string>
 
     <!-- Question 1 -->
     <string name="q1">Question 1</string>
@@ -121,9 +122,11 @@
     <string name="emailQuestion">Would you like to email your results?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="noEmail">No email will be generated.</string>
     <string name="summary_email_subject">Alzheimer\'s Awareness Quiz Results for:</string>
     <string name="emailScore">just completed the Alzheimer\'s Awareness Quiz.\n\nThe score was</string>
     <string name="visitWebsite">Go to alz.org</string>
     <string name="alzWebsite">\n\nPlease visit: https://www.alz.org/10-signs-symptoms-alzheimers-dementia.asp for more information about Alzheimer\'s disease</string>
     <string name="disclaimerForLink">\n\nThe Alzheimer\'s Association is not responsible for information or advice provided by others, including information on websites that link to Association sites and on third party sites to which the Association links.</string>
+    <string name="reset">Reset Quiz</string>
 </resources>

@@ -139,36 +139,39 @@ public class MainActivity extends AppCompatActivity {
         boolean a3 = answerExample3.isChecked();
         boolean a4 = answerExample4.isChecked();
         boolean aNone = answerNone.isChecked();
-
-        if (aNone) {
-            score += 0;
-        } else {
-            if (a1) {
-                score += POINT;
+        if (a1 || a2 || a3 || a4 || aNone) {
+            if (aNone) {
+                score += 0;
+            } else {
+                if (a1) {
+                    score += POINT;
+                }
+                if (a2) {
+                    score += POINT;
+                }
+                if (a3) {
+                    score += POINT;
+                }
+                if (a4) {
+                    score += POINT;
+                }
             }
-            if (a2) {
-                score += POINT;
+            //updates score message
+            scoreMessage(score);
+            if (iterator < questionObjects.length - 1) {
+                //shows custom message after each selection
+                Toast.makeText(this, this.questionObjects[iterator].getToastMessage(), Toast.LENGTH_LONG).show();
+                iterator += POINT;
+                setQuestion();
+            } else if (iterator == questionObjects.length - 1){
+                //shows final custom message after selection
+                Toast.makeText(this, this.questionObjects[iterator].getToastMessage(), Toast.LENGTH_LONG).show();
             }
-            if (a3) {
-                score += POINT;
-            }
-            if (a4) {
-                score += POINT;
-            }
+            //clears all checkboxes
+            checkboxReset();
+        }else {
+            Toast.makeText(this, this.getResources().getString(R.string.mustAnswer), Toast.LENGTH_LONG).show();
         }
-        //updates score message
-        scoreMessage(score);
-        if (iterator < questionObjects.length - 1) {
-            //shows custom message after each selection
-            Toast.makeText(this, this.questionObjects[iterator].getToastMessage(), Toast.LENGTH_LONG).show();
-            iterator += POINT;
-            setQuestion();
-        } else if (iterator == questionObjects.length - 1){
-            //shows final custom message after selection
-            Toast.makeText(this, this.questionObjects[iterator].getToastMessage(), Toast.LENGTH_LONG).show();
-        }
-        //clears all checkboxes
-        checkboxReset();
     }
 
     //method to handle radio button choice and launch email if user answers yes
@@ -191,6 +194,8 @@ public class MainActivity extends AppCompatActivity {
             if (intent.resolveActivity(getPackageManager()) != null) {
                 startActivity(intent);
             }
+        } else {
+            Toast.makeText(this, this.getResources().getString(R.string.noEmail), Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -208,6 +213,18 @@ public class MainActivity extends AppCompatActivity {
         answerExample3.setChecked(false);
         answerExample4.setChecked(false);
         answerNone.setChecked(false);
+    }
+
+    public void resetQuiz(View view){
+        checkboxReset();
+        iterator = 0;
+        score = 0;
+        String empty = userName.getResources().getString(R.string.userName);
+        empty += " ";
+        userName.setText(empty);
+        nameText.getText().clear();
+        setQuestion();
+        scoreMessage(score);
     }
 
 }

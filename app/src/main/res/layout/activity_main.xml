@@ -35,11 +35,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin"
                 android:hint="@string/editName"
+                android:maxLength="40"
                 android:padding="@dimen/pad"
                 android:textColor="@color/colorPrimary" />
 
             <Button
-                style="@style/ButtonStyle"
+                style="@style/ButtonStyle.Light"
                 android:onClick="nameText"
                 android:text="@string/continueButton" />
 
@@ -116,7 +117,7 @@
                 android:text="@string/noneResponse" />
 
             <Button
-                style="@style/ButtonStyle"
+                style="@style/ButtonStyle.Dark"
                 android:onClick="submitAnswer"
                 android:text="@string/submit" />
 
@@ -175,7 +176,7 @@
             </RadioGroup>
 
             <Button
-                style="@style/ButtonStyle"
+                style="@style/ButtonStyle.Light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="submitRadio"
@@ -183,7 +184,7 @@
 
             <Button
                 android:id="@+id/web_link"
-                style="@style/ButtonStyle"
+                style="@style/ButtonStyle.Light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="visitAlz"
@@ -194,6 +195,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/disclaimerForLink"/>
+
+            <Button
+                style="@style/ButtonStyle.Light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="resetQuiz"
+                android:text="@string/reset" />
 
             <ImageView style="@style/ImageStyle.Light" />
             <View style="@style/ViewStyle" />

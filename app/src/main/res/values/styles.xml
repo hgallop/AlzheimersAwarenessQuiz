@@ -42,8 +42,15 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginTop">@dimen/margin</item>
         <item name="android:padding">@dimen/pad</item>
-        <item name="android:background">@color/colorPrimary</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ButtonStyle.Light">
+        <item name="android:background">@drawable/button_shape</item>
+    </style>
+
+    <style name="ButtonStyle.Dark">
+        <item name="android:background">@drawable/button_shape2</item>
     </style>
 
     <style name="ImageStyle">
