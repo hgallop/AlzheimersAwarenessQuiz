@@ -35,6 +35,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/editName"
             android:maxLength="40"
+            android:inputType="text"
             android:padding="@dimen/pad"
             android:textColor="@color/colorPrimary" />
 
