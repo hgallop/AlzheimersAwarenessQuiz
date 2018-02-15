@@ -11,9 +11,8 @@
         \nThis app was created to raise awareness and direct those that suspect they or their loved one may be
         suffering from the early stages of alzheimer\'s disease to more information from the Alzheimer\'s Association.
         This quiz does not diagnose or treat any illness and is not endorsed by any medical professional or the Alzheimer\'s Association.
-        Materials from alz.org are used with permission by the Alzheimer\'s Association.
+        Materials from alz.org® are used with permission by the Alzheimer\'s Association.
     </string>
-    <string name="toastScroll">Scroll down to reveal first question.</string>
     <string name="editName">Please Enter Your Name</string>
     <string name="userName">Hello, </string>
     <string name="continueButton">Submit Name</string>
@@ -112,21 +111,21 @@
     <string name="q10example2">Becomes depressed, fearful or anxious.</string>
     <string name="q10example3">Is easily upset at home, at work, and with friends.</string>
     <string name="q10example4">Is easily upset in places where they are out of their comfort zone.</string>
-    <string name="q10AgeRelated">Developing very specific ways of doing things and becoming irritable when a routine is disrupted can be a typical age-related change.\n\nScroll down to see your results.</string>
+    <string name="q10AgeRelated">Developing very specific ways of doing things and becoming irritable when a routine is disrupted can be a typical age-related change.</string>
 
     <!-- Quiz Result Screen -->
     <string name="thankYou">Thank you for taking the\nAlzheimer\'s Awareness Quiz</string>
     <string name="scoreMessage">Your score is:</string>
     <string name="scoreMessage2">out of 40</string>
-    <string name="scoreExplanation">A high score may mean that you or your loved one is experiencing the early warning signs of Alzheimer\'s disease.</string>
+    <string name="scoreExplanation">A high score could mean that you or your loved one is experiencing the early warning signs of Alzheimer\'s disease.</string>
     <string name="emailQuestion">Would you like to email your results?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="noEmail">No email will be generated.</string>
     <string name="summary_email_subject">Alzheimer\'s Awareness Quiz Results for:</string>
     <string name="emailScore">just completed the Alzheimer\'s Awareness Quiz.\n\nThe score was</string>
-    <string name="visitWebsite">Go to alz.org</string>
-    <string name="alzWebsite">\n\nPlease visit: https://www.alz.org/10-signs-symptoms-alzheimers-dementia.asp for more information about Alzheimer\'s disease</string>
+    <string name="visitWebsite">Go to alz.org®</string>
+    <string name="alzWebsite">\n\nPlease visit: https://www.alz.org/10-signs-symptoms-alzheimers-dementia.asp® for more information about Alzheimer\'s disease</string>
     <string name="disclaimerForLink">\n\nThe Alzheimer\'s Association is not responsible for information or advice provided by others, including information on websites that link to Association sites and on third party sites to which the Association links.</string>
     <string name="reset">Reset Quiz</string>
 </resources>

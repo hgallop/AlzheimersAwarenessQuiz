@@ -3,6 +3,7 @@
     <dimen name="headText">24sp</dimen>
     <dimen name="bodyText">16sp</dimen>
     <dimen name="margin">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
     <dimen name="pad">8dp</dimen>
     <dimen name="icon">32dp</dimen>
 </resources>

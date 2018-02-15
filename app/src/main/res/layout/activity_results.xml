@@ -1,9 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.alzheimersawarenessquiz.ResultsActivity">
+    tools:context="com.example.android.alzheimersawarenessquiz.MainActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="vertical">
+
+        <View style="@style/ViewStyle" />
+
+        <TextView
+            style="@style/TextStyle.DarkHead"
+            android:text="@string/thankYou" />
+
+        <TextView
+            android:id="@+id/score_view"
+            style="@style/TextStyle.DarkHead"
+            android:text="@string/scoreMessage" />
+
+        <TextView
+            style="@style/TextStyle.DarkBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scoreExplanation" />
+
+        <TextView
+            style="@style/TextStyle.DarkHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emailQuestion" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/yes"
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/yes" />
+
+            <RadioButton
+                android:id="@+id/no"
+                style="@style/CheckboxStyle.Dark"
+                android:buttonTint="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin"
+                android:paddingStart="@dimen/margin"
+                android:text="@string/no" />
+        </RadioGroup>
+
+        <Button
+            style="@style/ButtonStyle.Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="submitRadio"
+            android:text="@string/submit" />
+
+        <TextView
+            style="@style/TextStyle.DarkBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disclaimerForLink" />
+
+        <Button
+            android:id="@+id/web_link"
+            style="@style/ButtonStyle.Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="visitAlz"
+            android:text="@string/visitWebsite" />
+
+        <Button
+            style="@style/ButtonStyle.Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="resetQuiz"
+            android:text="@string/reset" />
+
+        <ImageView style="@style/ImageStyle" />
+
+        <View style="@style/ViewStyle" />
+    </LinearLayout>
+</ScrollView>
