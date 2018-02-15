@@ -1,16 +1,11 @@
 package com.example.android.alzheimersawarenessquiz;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         nameText = findViewById(R.id.name_text);
         submitName = findViewById(R.id.submit_name);
 
+        //launches question activity when name is submitted using button. sends name information entered by the user to the question activity.
         submitName.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -34,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, QuestionActivity.class);
                 intent.putExtra("name", nameText.getText().toString());
                 startActivity(intent);
+                //clears edit text field
                 nameText.getText().clear();
 
             }

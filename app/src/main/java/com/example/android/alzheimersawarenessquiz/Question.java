@@ -6,14 +6,14 @@ package com.example.android.alzheimersawarenessquiz;
 
 public class Question {
 
-    String questionNumber;
-    String questionText;
-    String answerExample1;
-    String answerExample2;
-    String answerExample3;
-    String answerExample4;
-    String answerExampleNone;
-    String toastMessage;
+    private String questionNumber;
+    private String questionText;
+    private String answerExample1;
+    private String answerExample2;
+    private String answerExample3;
+    private String answerExample4;
+    private String answerExampleNone;
+    private String toastMessage;
 
     //constructor for making a question object
     public Question(String questionNumber,
