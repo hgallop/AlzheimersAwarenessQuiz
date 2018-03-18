@@ -65,6 +65,13 @@
     <style name="ViewStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/margin</item>
+    </style>
+
+    <style name="ViewStyle.Purple">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ViewStyle.Gold">
         <item name="android:background">@color/colorPrimary</item>
     </style>
 

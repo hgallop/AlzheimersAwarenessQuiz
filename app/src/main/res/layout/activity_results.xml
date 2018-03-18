@@ -11,7 +11,9 @@
         android:background="@color/colorPrimaryLight"
         android:orientation="vertical">
 
-        <View style="@style/ViewStyle" />
+        <View style="@style/ViewStyle.Purple" />
+
+        <View style="@style/ViewStyle.Gold" />
 
         <TextView
             style="@style/TextStyle.DarkHead"
@@ -88,6 +90,8 @@
             style="@style/ImageStyle"
             android:contentDescription="@string/logoDescription"/>
 
-        <View style="@style/ViewStyle" />
+        <View style="@style/ViewStyle.Gold" />
+
+        <View style="@style/ViewStyle.Purple" />
     </LinearLayout>
 </ScrollView>
