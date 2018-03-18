@@ -155,7 +155,7 @@ public class QuestionActivity extends AppCompatActivity {
             //clears all checkboxes
             checkboxReset();
         }else {
-            //message to inform user to make at least one selection
+            //message to inform user to make at least one selection.
             Toast.makeText(this, this.getResources().getString(R.string.mustAnswer), Toast.LENGTH_LONG).show();
         }
     }
