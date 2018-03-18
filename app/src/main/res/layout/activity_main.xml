@@ -3,11 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
     tools:context="com.example.android.alzheimersawarenessquiz.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/colorPrimaryLight"
         android:descendantFocusability="beforeDescendants"
         android:focusableInTouchMode="true"
@@ -44,7 +45,9 @@
             style="@style/ButtonStyle.Light"
             android:text="@string/continueButton" />
 
-        <ImageView style="@style/ImageStyle" />
+        <ImageView
+            style="@style/ImageStyle"
+            android:contentDescription="@string/logoDescription"/>
 
         <View style="@style/ViewStyle" />
     </LinearLayout>

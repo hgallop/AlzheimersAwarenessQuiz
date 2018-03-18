@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
     tools:context="com.example.android.alzheimersawarenessquiz.MainActivity">
 
     <LinearLayout
@@ -41,17 +42,17 @@
             <RadioButton
                 android:id="@+id/yes"
                 style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
                 android:paddingStart="@dimen/margin"
+                android:paddingRight="@dimen/margin"
                 android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/no"
                 style="@style/CheckboxStyle.Dark"
-                android:buttonTint="@color/colorPrimary"
                 android:paddingLeft="@dimen/margin"
                 android:paddingStart="@dimen/margin"
+                android:paddingRight="@dimen/margin"
                 android:text="@string/no" />
         </RadioGroup>
 
@@ -83,7 +84,9 @@
             android:onClick="resetQuiz"
             android:text="@string/reset" />
 
-        <ImageView style="@style/ImageStyle" />
+        <ImageView
+            style="@style/ImageStyle"
+            android:contentDescription="@string/logoDescription"/>
 
         <View style="@style/ViewStyle" />
     </LinearLayout>

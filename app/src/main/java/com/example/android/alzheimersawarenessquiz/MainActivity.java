@@ -11,7 +11,6 @@ public class MainActivity extends AppCompatActivity {
 
     //declare variables for all views that handle events
     private EditText nameText;
-    private Button submitName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         //initialize variables for all views that handle events
         nameText = findViewById(R.id.name_text);
-        submitName = findViewById(R.id.submit_name);
+        Button submitName = findViewById(R.id.submit_name);
 
         //launches question activity when name is submitted using button. sends name information entered by the user to the question activity.
         submitName.setOnClickListener(new View.OnClickListener(){

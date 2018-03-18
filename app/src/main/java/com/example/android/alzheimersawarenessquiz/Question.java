@@ -1,19 +1,19 @@
 package com.example.android.alzheimersawarenessquiz;
 
 /**
- * Created by doyou on 2/12/2018.
+ * Created to form Question
  */
 
 public class Question {
 
-    private String questionNumber;
-    private String questionText;
-    private String answerExample1;
-    private String answerExample2;
-    private String answerExample3;
-    private String answerExample4;
-    private String answerExampleNone;
-    private String toastMessage;
+    private String mQuestionNumber;
+    private String mQuestionText;
+    private String mAnswerExample1;
+    private String mAnswerExample2;
+    private String mAnswerExample3;
+    private String mAnswerExample4;
+    private String mAnswerExampleNone;
+    private String mToastMessage;
 
     //constructor for making a question object
     public Question(String questionNumber,
@@ -24,53 +24,53 @@ public class Question {
                     String answerExample4,
                     String answerExampleNone,
                     String toastMessage){
-       this.questionNumber = questionNumber;
-       this.questionText = questionText;
-       this.answerExample1 = answerExample1;
-       this.answerExample2 = answerExample2;
-       this.answerExample3 = answerExample3;
-       this.answerExample4 = answerExample4;
-       this.answerExampleNone = answerExampleNone;
-       this.toastMessage = toastMessage;
+       mQuestionNumber = questionNumber;
+       mQuestionText = questionText;
+       mAnswerExample1 = answerExample1;
+       mAnswerExample2 = answerExample2;
+       mAnswerExample3 = answerExample3;
+       mAnswerExample4 = answerExample4;
+       mAnswerExampleNone = answerExampleNone;
+       mToastMessage = toastMessage;
     }
 
     //accessor. allows question number to be accessed
-    public String getQuestionNumber(){
-        return questionNumber;
+    String getQuestionNumber(){
+        return mQuestionNumber;
     }
 
     //accessor. allows question text to be accessed
-    public String getQuestionText(){
-        return questionText;
+    String getQuestionText(){
+        return mQuestionText;
     }
 
     //accessor. allows answer example 1 to be accessed
-    public String getAnswerExample1(){
-        return answerExample1;
+    String getAnswerExample1(){
+        return mAnswerExample1;
     }
 
     //accessor. allows answer example 2 to be accessed
-    public String getAnswerExample2(){
-        return answerExample2;
+    String getAnswerExample2(){
+        return mAnswerExample2;
     }
 
     //accessor. allows answer example 3 to be accessed
-    public String getAnswerExample3(){
-        return answerExample3;
+    String getAnswerExample3(){
+        return mAnswerExample3;
     }
 
     //accessor. allows answer example 4 to be accessed
-    public String getAnswerExample4(){
-        return answerExample4;
+    String getAnswerExample4(){
+        return mAnswerExample4;
     }
 
     //accessor. allows answer example none to be accessed
-    public String getAnswerExampleNone(){
-        return answerExampleNone;
+    String getAnswerExampleNone(){
+        return mAnswerExampleNone;
     }
 
     //accessor. allows toast message to be accessed
-    public String getToastMessage(){
-        return toastMessage;
+    String getToastMessage(){
+        return mToastMessage;
     }
 }

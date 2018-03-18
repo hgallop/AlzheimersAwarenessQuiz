@@ -1,13 +1,11 @@
 package com.example.android.alzheimersawarenessquiz;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class QuestionActivity extends AppCompatActivity {
@@ -41,7 +39,7 @@ public class QuestionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
 
-        //retirves name information from welcome screen to display message to user.
+        //retrieves name information from welcome screen to display message to user.
         Intent intent = getIntent();
         name = intent.getStringExtra("name");
 
