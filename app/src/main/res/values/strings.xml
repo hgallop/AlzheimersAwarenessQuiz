@@ -14,8 +14,8 @@
         This quiz does not diagnose or treat any illness and is not endorsed by any medical professional or the Alzheimer\'s Association.
         Materials from alz.org® are used with permission by the Alzheimer\'s Association.
     </string>
-    <string name="editName">Please Enter Your Name</string>
-    <string name="userName">Hello, </string>
+    <string name="editName">Please Enter Your Name (Optional)</string>
+    <string name="userGreeting">Hello, </string>
     <string name="continueButton">Submit Name</string>
 
     <!-- Strings Reused -->
@@ -127,6 +127,6 @@
     <string name="emailScore">just completed the Alzheimer\'s Awareness Quiz.\n\nThe score was</string>
     <string name="visitWebsite">Go to alz.org®</string>
     <string name="alzWebsite">\n\nPlease visit: https://www.alz.org/10-signs-symptoms-alzheimers-dementia.asp® for more information about Alzheimer\'s disease</string>
-    <string name="disclaimerForLink">\n\nThe Alzheimer\'s Association is not responsible for information or advice provided by others, including information on websites that link to Association sites and on third party sites to which the Association links.</string>
+    <string name="disclaimerForLink">\n\nThe Alzheimer\'s Association is not responsible for information or advice provided by others, including information on websites that link to Association sites and on third party sites to which the Association links.\n\n</string>
     <string name="reset">Reset Quiz</string>
 </resources>

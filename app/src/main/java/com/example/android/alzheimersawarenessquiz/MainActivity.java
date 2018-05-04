@@ -9,6 +9,9 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    //creates string key for intent extra
+    static final String NAME = "name";
+
     //declare variables for all views that handle events
     private EditText nameText;
 
@@ -27,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, QuestionActivity.class);
-                intent.putExtra("name", nameText.getText().toString());
+                intent.putExtra(NAME, nameText.getText().toString());
                 startActivity(intent);
                 //clears edit text field
                 nameText.getText().clear();

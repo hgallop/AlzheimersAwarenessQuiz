@@ -16,7 +16,7 @@
         <TextView
             android:id="@+id/user_name"
             style="@style/TextStyle.LightHead"
-            android:text="@string/userName" />
+            android:text="@string/userGreeting" />
 
         <TextView
             android:id="@+id/question_number"
