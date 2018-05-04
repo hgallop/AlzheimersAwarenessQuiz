@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Questions adapted from Alzheimer's Associate website article
+titled "10 Early Signs and Symptoms of Alzheimer's"
+url: https://www.alz.org/10-signs-symptoms-alzheimers-dementia.asp Permission from Alzheimer's
+Association to use material was obtained by email on 2/15/2018-->
 <resources>
     <string name="app_name">Alzheimer\'s Awareness Quiz</string>
 
